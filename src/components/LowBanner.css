@@ -1,0 +1,102 @@
+.low-banner {
+    width: 100%;
+    height: 400px;
+    font-family: "Abel", sans-serif;
+  }
+  
+  .low-banner-content {
+    height: 100%;
+   
+  }
+  
+  .left-container {
+    width: 50%;
+    height: 100%;
+  }
+  
+  .placeholder {
+    background-color: lightgray; 
+    height: 50%;
+  }
+  
+  .right-container {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(237, 237, 237); 
+    justify-content: space-between;
+  }
+  
+  .low-banner-text-content {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .low-banner-pro-beyond {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .low-banner-iphone-title {
+    font-size: 36px; /*Уменьшено для лучшей читаемости */
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .low-banner-description {
+    font-size: 14px;
+    line-height: 1.5;
+    color: black;
+  }
+  
+  .low-banner-shop-button {
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .low-banner-image-content {
+    width: 50%;
+    height: 100%;
+    width: auto; 
+  }
+  
+  .low-banner-image-content img {
+    height: 100%;
+    object-fit: cover; /*Можно изменить на contain при необходимости */
+    justify-self: right;
+  }
+
+  .low-banner-placeholder01 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255); 
+    justify-content: space-between;
+  }
+  
+  .image-placeholder img {
+    
+    height: 400px;
+    object-fit: cover; /*Можно изменить на contain при необходимости */
+    justify-self: right;
+    
+  }
+  
+  .text-placeholder {
+    width: 50%;
+    padding: 20px;
+    justify-content: space-between;
+    font-size: 36px;
+    
+  }
+  
+  .low-banner-placeholder02 {
+    display: flex;
+  }
+  
+  

@@ -1,0 +1,59 @@
+.banner {
+    background-color: #000000;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 100%;
+  }
+  
+  .text-content {
+    color: white;
+    font-family: "Abel", sans-serif;
+  }
+  
+  .pro-beyond {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .iphone-title {
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .description {
+    font-size: 14px;
+    line-height: 1.5;
+    color: white;
+  }
+  
+  .shop-button {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .image-content {
+    height: 100%;
+  }
+  
+  .image-content img {
+    height: 100%;
+    object-fit: contain; /*или cover, в зависимости от желаемого поведения */
+  }

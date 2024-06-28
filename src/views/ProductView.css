@@ -1,0 +1,297 @@
+.checked {
+    color: orange;
+  }
+  .product-container {
+    background: #FAFAFA;
+    margin-top: 1%;
+  }
+  .product-mark {
+      height: 100%;
+      width: 80%;
+      align-self: center;
+      background: #FFFFFF;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      align-content: center;
+      align-items: center;
+      margin-bottom: 10%;
+  }
+  .product-mark-box {
+      height: fit-content;
+      width: fit-content;
+      background: #FAFAFA;
+      padding-left: 4%;
+      padding-right: 4%;
+      padding-top: 4%;
+      padding-bottom: 4%;
+      align-self: center;
+      border-radius: 5px;
+  }
+  .product-mark-box > h3 {
+      font-family: "ABeeZee", sans-serif;
+      font-size: 56px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 56px;
+      text-align: center;
+      margin-bottom: 16px;
+  }
+  .product-mark-box > p {
+      font-family: "ABeeZee", sans-serif;
+      font-size: 15px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 16px;
+      text-align: center;
+      margin-bottom: 8px;
+  }
+  .product-mark-box > span {
+      align-self: center;
+  }
+  
+  .product-details {
+      height: fit-content;
+      width: 80%;
+      align-self: center;
+      margin-top: 64px;
+      margin-bottom: 64px;
+      background: #FFFFFF;
+      padding-left: 4%;
+      padding-right: 4%;
+      padding-top: 2%;
+      padding-bottom: 2%;
+  }
+  .product-details > h2 {
+      margin-bottom: 64px;
+      font-family: "ABeeZee", sans-serif;
+      font-size: 24px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 32px;
+      text-align: left;
+  }
+  .details-flex-row {
+      height: fit-content;
+      width: 100%;
+      align-self: center;
+  }
+  .details-flex-row > p {
+      font-family: "Abel", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+  }
+  
+  .product-intro {
+      height: fit-content;
+      width: 100%;
+      align-self: center;
+      align-items: center;
+      align-content: center;
+      background: #FFFFFF;
+  }
+  .product-images {
+      width: 40%;
+  }
+  .product-info {
+      height: fit-content;
+      width: 60%;
+      align-self: center;
+      padding-right: 10%;
+  }
+  .product-title {
+      font-family: "ABeeZee", sans-serif;
+      font-size: 40px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 40px;
+      text-align: left;
+  }
+  .product-price {
+      width: 100%;
+  }
+  .product-price > p {
+      font-family: "ABeeZee", sans-serif;
+      font-size: 32px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 48px;
+      letter-spacing: 0.03em;
+      text-align: left;
+  }
+  .product-price > s {
+      font-family: "Abel", sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 0.03em;
+      text-align: left;
+  }
+  
+  .product-specs {
+    display: flex;
+    flex-wrap: wrap; /*Разрешаем перенос элементов на новую строку */
+    justify-content: space-between; /*Равномерно распределяем элементы по строке */
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    align-content: center;
+  }
+  .product-spec {
+    display: flex; 
+    align-items: stretch;
+    flex-grow: 1;   /*Разрешаем элементам расти и занимать доступное пространство */
+    margin-bottom: 10px; /*Добавляем отступ снизу */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: fit-content;
+    width: fit-content;
+    padding: 16px 0px 0px 0px;
+    gap: 8px;
+    opacity: 0px;
+    background: #F4F4F4;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    align-items: center;
+    align-content: center;
+    padding-left: 2%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+    margin-right: 1%;
+  }
+
+  .ps-text > h3 {
+      font-family: "Abel", sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 16px;
+      text-align: left;
+      color: #4E4E4E;
+      opacity: 50%;
+  }
+  .ps-text > p {
+      font-family: "ABeeZee", sans-serif;
+      font-size: 14px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 16px;
+      text-align: left;
+      color: #4E4E4E;
+  }
+  .ps-image {
+      width: fit-content;
+      height: 100%;
+      padding-left: 0;
+  }
+  .ps-text {
+      width: fit-content;
+      height: 100%;
+      padding-left: 0;
+      padding-bottom: 2%;
+  }
+  
+  .product-actions {
+      width: 100%;
+      height: 56px;
+      align-items: center;
+      align-content: center;
+      font-family: "ABeeZee", sans-serif;
+      font-size: 16px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+      margin-top: 32px;
+      margin-bottom: 32px;
+  }
+  .action-wishlist {
+      width: 48%;
+      height: 100%;
+      gap: 8px;
+      border-radius: 8px;
+      border: 1px 0px 0px 0px;
+      opacity: 0px;
+      border: 1px solid #000000;
+      background: #FFFFFF;
+      text-align: center;
+      margin-right: 2%;
+      cursor: pointer;
+  }
+  .action-cart {
+      width: 48%;
+      height: 100%;
+      gap: 8px;
+      border-radius: 8px;
+      border: 1px 0px 0px 0px;
+      opacity: 0px;
+      border: 1px solid #000000;
+      background: #000000;
+      color: #FFFFFF;
+      text-align: center;
+      margin-left: 2%;
+      cursor: pointer;
+  }
+  
+  .product-misc {
+      width: 100%;
+      height: fit-content;
+      align-items: center;
+      align-content: center;
+      margin-top: 16px;
+  }
+  .product-misc > div {
+      width: fit-content;
+      height: 100%;
+      background: #F6F6F6;
+      align-items: center;
+      align-content: center;
+      padding-left: 4%;
+      padding-right: 4%;
+      padding-top: 3%;
+      padding-bottom: 3%;
+      margin-top: 1rem;
+  }
+  .ms-text > h3 {
+      font-family: "ABeeZee", sans-serif;
+      font-size: 14px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      color: #717171;
+  }
+  .ms-text > p {
+      font-family: "ABeeZee", sans-serif;
+      font-size: 14px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      color: #000000;
+  }
+  .ms-image {
+      width: fit-content;
+      height: 100%;
+      padding-left: 0;
+      width: 30%;
+  }
+  .ms-text {
+      width: 70%;
+      height: 100%;
+      padding-right: 0;
+      padding-bottom: 2%;
+  }
+  .notification {
+    font-family: "Abel", sans-serif;
+    position: fixed; 
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #9dd19f; 
+    color: white;
+    border-radius: 5px;
+    z-index: 1000; 
+  }

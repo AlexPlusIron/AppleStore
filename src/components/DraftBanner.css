@@ -1,0 +1,30 @@
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .banner-section {
+    position: relative;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .banner-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .banner-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+  }
+  
+  .shop-now {
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
